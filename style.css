@@ -59,8 +59,8 @@ a:hover {
   display: grid;
   color: #7b91ad;
   box-shadow: 0px 25px 5px 12px rgba(12,23,41,1);
--webkit-box-shadow: 0px 25px 5px 12px rgba(12,23,41,1);
--moz-box-shadow: 0px 25px 5px 12px rgba(12,23,41,1);
+  -webkit-box-shadow: 0px 25px 5px 12px rgba(12,23,41,1);
+  -moz-box-shadow: 0px 25px 5px 12px rgba(12,23,41,1);
 }
 
 .card__image {
@@ -139,6 +139,6 @@ footer{
     text-align: center;
     color: var(--neutral-white);
   }
-  .attribution a {
+ footer .attribution a {
     color: var(--primary-cyan);
   }
